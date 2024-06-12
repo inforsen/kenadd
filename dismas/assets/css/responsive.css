@@ -1,0 +1,157 @@
+@media screen and (max-width: 1000px) {
+    .header_container,
+    .menuContainer,
+    .menu_open,
+    .my_company_form_align {
+        display: block;
+    }
+    .panelData {
+        display: none;
+    }
+    .leftDataContent {
+        padding-top: 0;
+        margin-top: 60px;
+    }
+    .leftData a,
+    .leftDataTwo a {
+        color: #444;
+    }
+    .na__lis {
+        margin-right: 35px;
+    }
+    .container {
+        padding: 0 20px 30px 20px;
+    }
+    .login_form_left_cont_ent{
+        width: 60%;
+        left: 20%;
+        top: 11%;
+    }
+    .rightContainer {
+        margin-left: 0;
+    }
+    .rightContainer nav {
+        width: 100%;
+    }
+    .menuContainer {
+        height: 100%;
+        width: 0;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        background-color: #fff;
+    }
+	.notification_notes {
+	    width: 49%;
+	}
+	.notification_pay {
+	    width: 49%;
+	}
+    .footer,
+    .rightContainer nav {
+        width: 100%;
+    }
+    .notification_data_main {
+        width: 49%;
+    }
+
+    .destination_image_layouto {
+        margin-top: 0;
+    }
+
+    .table_scroll {
+        height: 500px;
+    }
+    nav {
+        padding: 16px 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .dashAlignContainer,
+    .login_form_right_content,
+    .my_company_form,
+    .notification_notes,
+    .rightContainer, .itemLabel, .destination_lef_item, .login_form_left_content, .container_print {
+        width: 100%;
+    }
+    .dashAlign, .dashOrders {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .dashFit {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .order_print {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .invent_search {
+        float: left;
+        margin: 10px 0;
+    }
+    .login_form_left_cont_ent{
+        width: 90%;
+        left: 5%;
+        top: 11%;
+        padding: 20px 15px;
+    }
+    .product_image img{height:80%;width:80%;border-radius:10px;}
+    .notification_pay {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .visit_statistics table {
+        width: 1200px;
+    }
+    .dashAlign,
+    .login_form_main,
+    .my_company_form_main_data,
+    .notification_main, .dashboard_layout, .product_col_name_layout {
+        display: block;
+    }
+    .login_form_right_content,
+    .my_company_form {
+        margin-top: 20px;
+    }
+    .company_header {
+        float: none;
+        text-align: center;
+    }
+    .nav {
+        text-align: left;
+        float: none;
+    }
+    .company_header p {
+        margin: auto;
+        padding: 10px 0 0 0;
+    }
+    .nav ul li span {
+        top: -6px;
+    }
+    .container {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .notification_data_main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .company_howdy_dashboard {
+        font-size: 12px;
+    }
+    .login_form_left_cont_ent{
+        width: 90%;
+        left: 5%;
+        top: 10%;
+    }
+}
